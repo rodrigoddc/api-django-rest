@@ -1,0 +1,7 @@
+.idea
+*.sqlite3
+venv
+*.pyc
+pontos_turisticos/__pycache__/
+/media
+static
