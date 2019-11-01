@@ -14,6 +14,7 @@ class PontoTuristico(models.Model):
     comentarios = models.ManyToManyField(Comentario, blank=True)
     avaliacoes = models.ManyToManyField(Avaliacao, blank=True)
     endereco = models.ForeignKey(Endereco, blank=True, null=True, on_delete=models.CASCADE)
+    foto = models.ImageField(upload_to='pontos_turisticos', null=True, blank=True)
 
     def __str__(self):
         return self.nome

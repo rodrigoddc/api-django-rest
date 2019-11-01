@@ -11,4 +11,5 @@ class AtracaoSerializer(ModelSerializer):
             'descricao',
             'horario_func',
             'idade_min',
+            'foto'
         )
